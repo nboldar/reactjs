@@ -1,3 +1,6 @@
+/**
+ * решение задачи №4
+ */
 class newHuman {
     constructor() {
         this.init();

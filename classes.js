@@ -1,3 +1,6 @@
+/**
+ * Решение задачи № 3
+ */
 class Human {
     constructor(name, age, dateOfBirth) {
         this.name = name;

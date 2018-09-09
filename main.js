@@ -1,4 +1,6 @@
-// "use strict";
+/**
+ * Решение задачи №1
+ */
 let foo = () => {
     console.log('hello world!');
 };
@@ -13,6 +15,10 @@ let loop = (times, callback = null) => {
 };
 loop(3, foo);
 loop(4);
+/**
+ *
+ * Решение задачи №2
+ */
 let calculateArea = (figure, height, width = null) => {
     const obj = {};
     obj.figure = figure;
@@ -28,7 +34,7 @@ let calculateArea = (figure, height, width = null) => {
                 width = 3.1415;
                 obj.area = Math.pow(height, 2) * width;
                 break;
-            case ('square' || 'прямоугольник'):
+            case ('square' || 'rectangle'):
                 obj.area = height * width;
                 break;
             default:
